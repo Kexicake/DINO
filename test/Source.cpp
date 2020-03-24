@@ -7,6 +7,7 @@ int main()
 {
 	int jump = 0, poz = 200,m = 1, c=0;
 	float timer228 = 0, delay228 = 0.2;
+	Texture dino_;
 	Clock clock228;
 	RenderWindow window(VideoMode(1024, 200), "Google Dino!");
 
@@ -29,12 +30,17 @@ int main()
 			}else if (event.key.code == Keyboard::Space) {
 				jump = 1;
 			}
+			else if (event.key.code == Keyboard::Down) {
+				if (c % 2 == 0) {
+					dino_.loadFromFile("Z:/ИП-4/1Wawwo96YOA.jpg");//текстур у меня нет
+				}
+				else {
+					dino_.loadFromFile("Z:/ИП-4/21tjPdyB30E.jpg");
+				}
+			}
 		}
 		// Установка цвета фона - белый
 		window.clear(Color::White);
-
-		// Создаём переменную текстуры
-		Texture dino_;
 
 		
 		if (timer228 > delay228) {
