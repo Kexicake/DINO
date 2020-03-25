@@ -23,7 +23,7 @@
     <ProjectGuid>{0594A553-7CEA-4711-85C6-1EE6F07FE0B8}</ProjectGuid>
     <RootNamespace>test</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>cats_inica</ProjectName>
+    <ProjectName>DINO</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

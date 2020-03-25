@@ -1,3 +1,32 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (DINO.vcxproj, test.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Source.cpp
-  test.vcxproj -> E:\source\repos\test\x64\Debug\cats_inica.exe
+﻿  Source.cpp
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(12,29): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(50,27): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(54,28): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(58,28): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(62,28): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(86,35): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(86,32): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(92,36): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(92,33): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(98,36): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(98,33): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(104,36): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(104,33): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(110,36): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(110,33): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(116,36): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(116,33): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(122,36): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(122,33): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(128,36): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(128,33): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(134,36): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(134,33): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(140,37): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(140,34): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(146,38): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(146,35): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(152,35): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(152,32): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\vladandlexa\Desktop\work\DINO\test\Source.cpp(232,23): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  test.vcxproj -> C:\Users\vladandlexa\Desktop\work\DINO\x64\Debug\DINO.exe
