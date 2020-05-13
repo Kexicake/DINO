@@ -8,13 +8,13 @@ int road[4] = { 0, 300, 600, 900 };
 int randRo[4] = { 
 	300 * (rand() % 4),300 * (rand() % 4),300 * (rand() % 4),300 * (rand() % 4) 
 };
-int jump = 0, gop_stop = 0, y = 140, poz = 145, m = 1, c = 0, y_Ka = 133;
+int jump = 0, gop_stop = 0, y = 140, poz = 145, m = 1, c = 0, y_Ka = 132;
 float timer = 0, delay = 0.1;
 int kaktysArr[12]{
 	0,80,160,240,320,400,480,560,640,720,800,880
 };
 int randKa[12] = {
-	29 * (rand() % 5),29 * (rand() % 5),29 * (rand() % 5),29 * (rand() % 5),29 * (rand() % 5),29 * (rand() % 5),29 * (rand() % 5),29 * (rand() % 5),29 * (rand() % 5),29 * (rand() % 5),29 * (rand() % 5),29 * (rand() % 5)
+	29 * 3,29 * 3, 29 * 3, 29 * 3, 29 * 3, 29 * 3, 29 * 3, 29 * 3, 29 * 3,29 * (rand() % 5),29 * (rand() % 5)
 };
 
 
@@ -187,8 +187,8 @@ int main()
 
 		background();
 
-		//Events ёптать
-		while (window.pollEvent(event))
+			//Events ёптать
+			while (window.pollEvent(event))
 		{
 			if (event.type == Event::Closed)
 				window.close();
@@ -218,7 +218,8 @@ int main()
 			}
 			gop_stop--;
 			
-		} else if(jump == 0){
+		}
+		else if (jump == 0) {
 			poz = 141;
 			if (c % 2 == 0) {
 				dino.setTextureRect(IntRect(88, 0, 44, 50));//текстур у меня нет
@@ -227,6 +228,7 @@ int main()
 				dino.setTextureRect(IntRect(88 + 44, 0, 44, 50));
 			}
 		}
+
 		kaktysu();
 		jumping();
 		dino.setPosition(3, poz);
